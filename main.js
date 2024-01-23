@@ -37,14 +37,12 @@ let links = document.getElementById("links");
 let navBtn = document.getElementById("nav-btn");
 let btnImg = document.getElementById("btn-img")
 
-console.log(btnImg);
-
 navBtn.onclick = function() {
    console.log("Open");
    links.classList.toggle("open");
    if (links.classList.contains("open")) {
-      btnImg.src = 'imgs/open-icon.svg';
+      btnImg.src = 'imgs/menu-open.svg';
    } else {
-      btnImg.src = 'imgs/close-icon.svg';
+      btnImg.src = 'imgs/menu-close.svg';
    }
 }
