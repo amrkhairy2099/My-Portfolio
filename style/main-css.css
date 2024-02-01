@@ -380,6 +380,10 @@ nav .links a:hover {
    color: #fff;
 }
 
+.work .hide {
+   display: none;
+}
+
 @media (max-width: 767px) {
    .about .work .row {
       flex-direction: column;
@@ -425,10 +429,6 @@ nav .links a:hover {
    opacity: 0;
 }
 
-.projects .load {
-   filter: blur(7px);
-}
-
 .projects img {
    width: 100%; 
 }
@@ -436,6 +436,10 @@ nav .links a:hover {
 .projects h3 {
    color: #FFF;
    font-weight: 200;
+}
+
+.projects .load {
+   filter: blur(7px);
 }
 
 .projects a {
